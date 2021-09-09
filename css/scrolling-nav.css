@@ -1,0 +1,518 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+ body, html {
+     height: 100%;
+ }
+
+.bg-dark {
+  background-color: #005DB1 !important;
+}
+
+.bg-dark-bottom {
+  background-color: #005DB1 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,.8);
+}
+
+.parallax {
+   /* The image used */
+   background-image: url('DSC00831_final_md.jpg');
+
+   /* Full height */
+   height: 100%;
+
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+ /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.parallaxshort {
+    /* The image used */
+    background-image: url('DSC01271_edit.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+   .parallax {
+       background-attachment: scroll;
+   }
+}
+
+.parallaxveryshort {
+    /* The image used */
+    background-image: url('DSC00983.JPG');
+
+    /* Full height */
+    height: 25%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+   .parallax {
+       background-attachment: scroll;
+   }
+}
+
+.bg-primary {
+  background-image: url(DSC00983.JPG)!important;
+  background-position: center top;
+  height: 0%;
+  background-color: white!important;
+}
+
+header {
+  background-color: red;
+  padding: 154px 0 100px;
+  height: 810px;
+}
+
+.navbar-brand{
+  font-size: 1.50rem;
+  font-style: normal;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #f8f9fa;
+}
+
+.maps{
+  background-color: black;
+}
+
+.iconheader img {
+  float: center;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  margin: auto;
+}
+
+@media handheld, only screen and (min-width: 715px) {
+    h1{
+      font-size: 100pt;
+      font-style: normal;
+      font-family: 'Josefin Sans', sans-serif;
+      text-align: center!important;
+      right: 0px;
+      left: 0;
+      margin: auto;
+      margin-top: -130px;
+      position: absolute;
+      top: 50%;
+      max-width: 100%;
+      color: white;
+      letter-spacing: 8px;
+    }
+}
+
+@media handheld, only screen and (max-width: 714px) {
+  h1{
+    font-size: 50pt;
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center!important;
+    right: 0px;
+    left: 0;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    max-width: 100%;
+    color: white;
+    letter-spacing: 8px;
+  }
+}
+
+@media handheld, only screen and (max-width: 434px) {
+  h1{
+    font-size: 30pt;
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center!important;
+    right: 0px;
+    left: 0;
+    margin: auto;
+    margin-top: -70px;
+    position: absolute;
+    top: 50%;
+    max-width: 100%;
+    color: white;
+    letter-spacing: 8px;
+  }
+}
+
+h2{
+  font-size: 24pt;
+  font-style: normal;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #000000;
+}
+
+h6{
+  font-size: 24pt;
+  font-style: normal;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #FFF;
+}
+
+h3{
+  font-size: 16pt;
+  font-style: normal;
+  font-family: 'Yantramanav', sans-serif;
+  color: #f8f9fa;
+}
+
+h4{
+  color: white;
+  font-size: 16pt;
+  font-family: 'Raleway', sans-serif;
+}
+
+h5 {
+  font-size: 16pt;
+  font-style: normal;
+  font-family: 'Paytone One', sans-serif;
+  color: #f8f9fa;
+}
+
+p {
+  color: #000000;
+  font-size: 16pt;
+  font-family: 'Raleway', sans-serif;
+}
+
+p2 {
+  color: #FFF;
+  font-size: 16pt;
+  font-family: 'Raleway', sans-serif;
+}
+
+.lead{
+  color: black;
+}
+
+@media handheld, only screen and (min-width: 1295px) {
+    .leadheader{
+      font-style: normal;
+      font-family: 'Paytone One', sans-serif;
+      font-size: 24px;
+      left: 0;
+      margin: auto;
+      margin-top: 100px;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      color: #f8f9fa;
+      word-spacing: 30px;
+    }
+}
+
+@media handheld, only screen and (max-width: 1294px) {
+  .leadheader{
+    font-style: normal;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 24px;
+    left: 0;
+    margin: auto;
+    margin-top: 225px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #f8f9fa;
+    word-spacing: 30px;
+  }
+}
+
+@media handheld, only screen and (max-width: 714px) {
+  .leadheader{
+    font-style: normal;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 14px;
+    left: 0;
+    margin: auto;
+    margin-top: 75px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #f8f9fa;
+    word-spacing: 30px;
+  }
+}
+
+@media handheld, only screen and (max-width: 434px) {
+  .leadheader{
+    font-style: normal;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 12px;
+    left: 0;
+    margin: auto;
+    margin-top: 60px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #f8f9fa;
+    word-spacing: 10px;
+  }
+}
+
+
+.leadmaps{
+  font-style: normal;
+  font-family: 'Raleway', sans-serif;
+}
+
+.leadphotos{
+  font-style: normal;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+#maps {
+  padding: 100px 0;
+  background-color: #FFF;
+}
+
+#photos {
+  padding: 100px 0;
+  background-color: #000000;
+}
+
+#aboutme {
+  padding: 100px 0;
+  background-color: #FFF;
+}
+
+#resume {
+  padding: 100px 0;
+  background-color: #338BD4;
+}
+
+#contactme {
+  padding-top: 100px 0;
+  padding-bottom: 250px;
+  background-color: #000000;
+}
+
+section {
+  padding: 100px 0;
+  background-color: #4072AF;
+}
+
+.portfolio-thumbnail {
+  background-color: rgba(100, 100, 100, 0.0);
+  border-width: 30px;
+  border-style: solid;
+  border-color: rgba(100, 100, 100, 0.0);
+  text-align: center;
+}
+
+.portfolio-thumbnail img {
+  height: 320px;
+  border-radius: 5px;
+}
+
+.portfolio-thumbnail-contact {
+  background-color: rgba(100, 100, 100, 0.0);
+  border-width: 40px;
+  border-style: solid;
+  border-color: rgba(100, 100, 100, 0.0);
+  text-align: center;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+a:link {
+    color: #f8f9fa;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: #f8f9fa;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
